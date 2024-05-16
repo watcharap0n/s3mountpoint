@@ -42,3 +42,7 @@ sudo docker build -f Dockerfile.s3mp -t python-s3mountpoint .
 ```bash
 sudo docker run --rm -it --device /dev/fuse --privileged python-s3mountpoint
 ```
+
+Example output:
+
+![output](./.github/output.png)
